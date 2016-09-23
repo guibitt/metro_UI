@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #efefef;
+	font-family: 'Trebuchet MS';
+}
+
+.clear{
+	clear: both;
+}
+
+.cf:before,
+.cf:after {
+ content: "";
+ display: table;
+}
+.cf:after {
+ clear: both;
+}
+.cf {
+ *zoom: 1;
+}
+
+.todo{
+	width: 1100px;
+	min-height: 1444px;
+	margin: 0 auto;
+	background-color: #efefef;
+}
+
+.right1{
+	width: 175px;
+	float: right;
+	margin-top: 20px;
+}
+
+.left1{
+	width: 900px;
+	float: left;
+	margin-top: 20px;
+}
+
+.right2{
+	width: 675px;
+	float: right;
+	margin-top: 25px;
+}
+
+.right2 .receitas{
+	border-radius: 5px;
+}
+
+.right2 .receitas .titulo{
+	font-family: 'Tahoma';
+	font-size: 40px;
+	float: left;
+}
+
+.left2{
+	width: 425px;
+	float: left;
+	margin-top: 25px;
+}
+
+nav .menu{
+	list-style-type: none;
+	margin: 0;
+}
+
+nav .menu li{
+	width: 148px;
+	min-height: 130px;
+	background-color: #fff;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.side1{
+	width: 175px;
+	min-height: 430px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	border-radius: 2%;
+	position: relative;
+}
+
+.side1 img{
+	display: block;
+	border: 0;
+	border-radius: 2%;
+}
+
+.side1 h2, h4{
+	color: #989989;
+	margin-left: 18px;
+}
+
+.side1 h2{
+	margin-top: 15px;
+}
+
+.side1 h4{
+	margin-bottom: 20px;
+}
+
+.side1 table {
+	width: 100%;
+	border: 0;
+	border-collapse: collapse;
+	bottom: 0;
+	position: absolute;
+}
+
+.cinza td{
+	background: #f5f5f5;
+}
+
+.side1 table tr td{
+	height: 50px;
+	font-size: 14px;
+}
+
+.side1 table tr td .descricao{
+	width: 63%;
+}
+
+.descricao p{
+	margin-left: 18px;
+	color: #474843;
+}
+
+.side1 table tr td .qtde{
+	width: 37%;
+}
+
+.qtde p{
+	margin-right: 21px;
+	color: #a7a8a3;
+}
+
+.side2{
+	width: 175px;
+	min-height: 200px;
+	background-color: #71af42;
+	border-radius: 2%;
+	position: relative;
+	overflow: hidden;
+}
+
+.side2 img{
+	margin: 0 auto;
+	padding-top: 23px;
+	display: block;
+}
+
+.side2 .titulo{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin: 5px 0 20px 0;
+}
+
+.side2 table{
+	width: 100%;
+	height: 90px;
+	border-collapse: collapse;
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+}
+
+.side2 table th{
+	vertical-align: bottom;
+}
+
+.side2 table th:last-child{
+	border-left: 1px solid #dadada;
+}
+
+.side2 table th p{
+	font-size: 14px;
+	color: #989989;
+}
+
+.side2 table td{
+	vertical-align: top;
+}
+
+.side2 table td:last-child{
+	border-left: 1px solid #dadada;
+}
+
+.side2 table td p{
+	text-align: center;
+	font-size: 18px;
+	color: #4d4d4d;
+	font-weight: bold;
+}
+
+.banner{
+	width: 900px;
+	min-height: 500px;
+	background-color: #fff;
+}
+
+.contato{
+	width: 400px;
+	min-height: 575px;
+	background-color: #fff;
+}
+
+.receitas{
+	width: 675px;
+	min-height: 380px;
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+
+.dicas{
+	width: 675px;
+	min-height: 170px;
+	background-color: #fff;
+}
