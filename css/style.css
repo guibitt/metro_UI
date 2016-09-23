@@ -43,6 +43,21 @@ body{
 	margin-top: 20px;
 }
 
+.left1 nav .menu li a{
+	text-decoration: none;
+	color: #848577;
+}
+
+.left1 nav .menu li a i{
+	text-align: center;
+	margin: 30px auto 13px auto;
+}
+
+.left1 nav .menu li a span{
+	display: block;
+	text-align: center;
+}
+
 .right2{
 	width: 675px;
 	float: right;
