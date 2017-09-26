@@ -3,17 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>YAY</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<style>
-		.container{
-			width: 100%;
-			margin: 0 auto;
-		}
-
 		img{
-			height: 100px;
-			margin: 0 auto;
+			max-width: 100%;
 			display: block;
-			float: left;
 		}
 	</style>
 </head>
@@ -27,11 +21,11 @@
 		var html = ''
 		for(i=0001; i<=0840;i++){
 			if(String(i).length == 1){
-				html += '<img src="http://bravesouls.fyi/assets/img/en/Characters/000' + i + '/stand_gacha.png">';
+				html += '<div class="col-xs-4"><img src="http://bravesouls.fyi/assets/img/en/Characters/000' + i + '/stand_gacha.png"></div>';
 			} else if(String(i).length == 2){
-				html += '<img src="http://bravesouls.fyi/assets/img/en/Characters/00' + i + '/stand_gacha.png">';
+				html += '<div class="col-xs-4"><img src="http://bravesouls.fyi/assets/img/en/Characters/00' + i + '/stand_gacha.png"></div>';
 			} else {
-				html += '<img src="http://bravesouls.fyi/assets/img/en/Characters/0' + i + '/stand_gacha.png">';
+				html += '<div class="col-xs-4"><img src="http://bravesouls.fyi/assets/img/en/Characters/0' + i + '/stand_gacha.png"></div>';
 			}
 			// html += '<img src="http://bravesouls.fyi/assets/img/en/Characters/' + i + '/stand_gacha.png">';
 		}
