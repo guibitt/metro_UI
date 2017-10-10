@@ -19,13 +19,13 @@
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script>
 		var html = ''
-		for(i=0001; i<=9999;i++){
+		for(i=0001; i<=1000;i++){
 			if(String(i).length == 1){
-				html += '<div class="col-xs-4"><img src="http://bravesouls.fyi/assets/img/en/Characters/000' + i + '/stand_gacha.png"></div>';
+				html += '<div class="col-xs-4"><a href="http://bravesouls.fyi/assets/img/en/Characters/000' + i + '/stand_gacha.png" download="Foto do Personagem"><img src="http://bravesouls.fyi/assets/img/en/Characters/000' + i + '/stand_gacha.png"></a></div>';
 			} else if(String(i).length == 2){
-				html += '<div class="col-xs-4"><img src="http://bravesouls.fyi/assets/img/en/Characters/00' + i + '/stand_gacha.png"></div>';
+				html += '<div class="col-xs-4"><a href="http://bravesouls.fyi/assets/img/en/Characters/00' + i + '/stand_gacha.png" download="Foto do Personagem"><img src="http://bravesouls.fyi/assets/img/en/Characters/00' + i + '/stand_gacha.png"></a></div>';
 			} else {
-				html += '<div class="col-xs-4"><img src="http://bravesouls.fyi/assets/img/en/Characters/0' + i + '/stand_gacha.png"></div>';
+				html += '<div class="col-xs-4"><a href="http://bravesouls.fyi/assets/img/en/Characters/0' + i + '/stand_gacha.png" download="Foto do Personagem"><img src="http://bravesouls.fyi/assets/img/en/Characters/0' + i + '/stand_gacha.png"></a></div>';
 			}
 			// html += '<img src="http://bravesouls.fyi/assets/img/en/Characters/' + i + '/stand_gacha.png">';
 		}
